@@ -2,4 +2,6 @@
 #### 使用方法
 >`wget https://raw.githubusercontent.com/LiuTianjie/Ri-config/master/piconfig.sh`
 
+或者
+
 >`git clone https://github.com/LiuTianjie/Ri-config`
