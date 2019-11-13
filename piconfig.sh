@@ -12,6 +12,8 @@ sudo echo "deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch ma
 deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
 " >> /etc/apt/sources.list
 sudo chmod -777 /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get upgrade
 
 #更换pip为阿里云
 sudo cp /etc/pip.conf /etc/pip.conf.copy
